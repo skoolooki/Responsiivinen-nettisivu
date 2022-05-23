@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsiivinen Nettisivu</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Nettisivu</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="tietoa.html">Tietoa Minusta</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Olen Slava</h1>
+                <p>Tässä on minun nettisivu, missä laitan jotain</p>
+                <a href="features.html" class="btn btn-outline">Lue lisää</a>
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Laita nimesi jotta se lisätään kaverilistalle</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Nimi" required>
+                    </div>
+                    <input type="submit" value="Lähetä" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stats -->
+
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Paikkoja missä teen jotain
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <img src="/kuvat/horse.jpg" alt="">
+                    <h3>Ranked 989</h3>
+                    <a href="https://www.chess.com/member/lookixo" target="_blank">Shakki</a>
+                </div>
+                <div>
+                    <img src="/kuvat/discord.jpg" alt="">
+                    <h3>Looki#2699</h3>
+                    <a href="https://discord.com/" target="_blank">Discord</a>
+                </div>
+                <div>
+                    <img src="/kuvat/twitter.png" alt="">
+                    <h3>Vapaa aika</h3>
+                    <a href="https://twitter.com/Looki62651981" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
