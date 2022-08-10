@@ -189,7 +189,7 @@ img {
 /* Mobile */
 @media(max-width: 500px) {
     .navbar {
-        height: 110px;
+        height: 180px;
     }
 
     .navbar .flex {
