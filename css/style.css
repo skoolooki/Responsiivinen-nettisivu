@@ -91,11 +91,16 @@ img {
 .showcase-form {
     position: relative;
     top: 60px;
-    height: 350px;
+    height: 400px;
     width: 350px;
     padding: 40px;
     z-index: 100;
 
+}
+
+.showcase-form p, h2 {
+    color: #333;
+    font-weight: bold;
 }
 
 .showcase-form .form-control {
@@ -152,9 +157,14 @@ img {
     margin: 0 5px;
 }
 
-.stats p, h3 {
+.stats p{
     color: #333;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.stats h3{
+    font-size: 30px;
+    color: #333;
 }
 
 .stats a:hover {
