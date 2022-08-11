@@ -74,7 +74,7 @@ img {
 
 
 .showcase h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .showcase p {
@@ -139,8 +139,15 @@ img {
     font-size: 35;
 }
 
-.stats .grid p{
+.stats .grid p, li, ul{
     font-weight: bold;
+    list-style-type: disc;
+}
+
+.stats .grid h1 {
+    font-weight: bold;
+    color: #333;
+    font-size: 25px;
 }
 
 .stats img {
@@ -155,6 +162,10 @@ img {
     font-size: 20px;
     padding: 10px;
     margin: 0 5px;
+}
+.stats li, ul {
+    color: #333;
+    font-size: 20px;
 }
 
 .stats p{
