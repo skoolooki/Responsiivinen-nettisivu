@@ -91,7 +91,7 @@ img {
 .showcase-form {
     position: relative;
     top: 60px;
-    height: 400px;
+    height:px;
     width: 350px;
     padding: 40px;
     z-index: 100;
@@ -155,6 +155,10 @@ img {
     border-radius: 10px;
     width: 100px;
     margin: 0 200px;
+}
+
+.stats table{
+    color: #333;
 }
 
 .stats a {
@@ -278,6 +282,10 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid-7 {
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .grid-3 {
