@@ -42,7 +42,7 @@ img {
 .navbar {
     background-color: var(--primary-color);
     color: rgb(255, 255, 255);
-    height: 70px;
+    height: auto;
 }
 
 .navbar .ul {
@@ -141,7 +141,6 @@ img {
 
 .stats .grid p, li, ul{
     font-weight: bold;
-    list-style-type: disc;
 }
 
 .stats .grid h1 {
@@ -212,9 +211,9 @@ img {
 
 
 /* Mobile */
-@media(max-width: 500px) {
+@media(max-width: 700px) {
     .navbar {
-        height: 180px;
+        height: auto;
     }
 
     .navbar .flex {
